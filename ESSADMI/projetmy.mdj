@@ -756,7 +756,8 @@
 					"_parent": {
 						"$ref": "AAAAAAF/5TMZWs32uZs="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				}
 			]
 		}
