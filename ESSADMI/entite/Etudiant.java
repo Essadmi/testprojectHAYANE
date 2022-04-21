@@ -1,8 +1,11 @@
 package entite;
+
 import java.io.*;
-public class Etudiant implements Serializable{
+import junit.framework.*;
+
+public class Etudiant implements Serializable {
     private int code;
-    private String nom,prenom;
+    private String nom, prenom;
 
     public Etudiant(int code, String nom, String prenom) {
         this.code = code;
@@ -21,5 +24,5 @@ public class Etudiant implements Serializable{
     public String getPrenom() {
         return prenom;
     }
-    
+
 }
